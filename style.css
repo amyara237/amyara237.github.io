@@ -1,5 +1,19 @@
 header {
-  background-color: hsla(39, 100%, 50%, 0.938);
+  background-color: hsl(7, 100%, 55%);
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+header h1 {
+  color: white;
+  border: 5px solid white;
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 25px;
 }
 h1 {
   position: relative;
@@ -23,4 +37,27 @@ h1 {
 }
 .banner h2 span {
   font-size: 1.4em;
+}
+nav {
+  background-color: hsla(0, 0%, 0%, 0.432);
+  padding: 20px;
+  position: sticky;
+  top: 130px;
+}
+nav ul {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav li {
+  width: 25%;
+  display: inline-block;
+  font-size: 24px;
+}
+nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav li a.join {
+  color: hsla(7, 100%, 16%, 0.884);
 }
