@@ -7,6 +7,7 @@ a {
   padding: 0;
   font-family: Arial;
 }
+
 header {
   background-color: hsl(7, 100%, 55%);
   padding: 10px;
@@ -123,4 +124,27 @@ footer {
 footer p a {
   text-decoration: none;
   color: black;
+}
+nav li a:hover {
+  color: hsl(7, 100%, 55%);
+}
+.images li:hover {
+  position: relative;
+  top: -8px;
+}
+.join input:focus {
+  border-color: hsla(0, 7%, 97%, 0.733);
+  outline: none;
+}
+.join input:valid {
+  border: #7ad300 solid 4px;
+}
+
+/*p::selection {
+  background-color: #7ad300;
+  color: white;
+}*/
+article p::first-line {
+  font-size: 1.2em;
+  font-weight: bold;
 }
