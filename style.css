@@ -148,3 +148,46 @@ article p::first-line {
   font-size: 1.2em;
   font-weight: bold;
 }
+@media screen and (max-width: 900px) {
+  .banner .welcome h2 {
+    font-size: 35px;
+  }
+  nav li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .banner .welcome h2 {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+  }
+  .banner .welcome br {
+    display: none;
+  }
+  .banner .welcome h2 {
+    font-size: 15px;
+  }
+  .banner .welcome span {
+    font-size: 1em;
+  }
+  .images li {
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+  }
+  nav li {
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin: 12px;
+  }
+  header {
+    position: relative;
+  }
+  nav {
+    top: 0;
+    z-index: 1;
+  }
+}
